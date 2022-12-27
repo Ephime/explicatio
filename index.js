@@ -32,4 +32,3 @@ window.addEventListener('scroll', function() {
 
 //Toggles the light and dark background for elements
 let darkModeToggle = document.querySelector("light-dark-switch");
-})
