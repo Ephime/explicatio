@@ -1,13 +1,28 @@
 body {
   text-align: center;
   background-color: #0a0a0a;
+  color: #FEF2BF;
 }
 
+#difficulty-page{
+  display: none;
+  background-image: url(../contact-me-bg-slow.gif);
+  background-size: inherit;
+  width: 400px;
+  padding: 20px;
+  position: fixed;
+  top:40%;
+  left:50%;
+  margin: auto -200px;
+  z-index: 200;
+  color: #0a0a0a;
+}
+
+/*Game CSS*/
 #level-title {
   font-family: 'Press Start 2P', cursive;
   font-size: 3rem;
   margin:  5%;
-  color: #FEF2BF;
 }
 
 .container {
@@ -45,6 +60,14 @@ body {
 
 .yellow {
   background-color: #948a03;
+}
+
+.purple {
+  background-color: #301934;
+}
+
+.orange {
+  background-color: #d37506;
 }
 
 .pressed {

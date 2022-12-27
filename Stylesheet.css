@@ -1,28 +1,31 @@
+:root {
+  --light: #d8dbe0;
+  --dark: #28292c;
+  --link: rgb(27, 129, 112);
+  --link-hover: rgb(24, 94, 82);
+}
+
 body {
   text-align: center;
   padding: 0;
   margin: 0;
   width: 100%;
   height: 100%;
+  min-height: 500px;
   color: #A9A9A9;
   background-image: url("untitled.png");
-  min-height: 500px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  overflow-x: hidden;
 }
 
 h2 {
   font-size: 2.6rem;
 }
 
-h3 {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-}
-
-p {
+h3, p {
   padding-top: 2rem;
   padding-bottom: 2rem;
 }
@@ -38,8 +41,9 @@ a:hover {
 
 /*text background */
 .dark-area {
-  background: rgb(0, 0, 0);
-  background: linear-gradient(153deg, rgba(0, 0, 0, 1) 0%, rgba(48, 25, 52, 0.959251596146271) 53%, rgba(0, 0, 0, 1) 100%);
+  background-image: url(contact-me-slow-invert.gif);
+  background-attachment: scroll;
+  background-size: cover;
 }
 
 .left-side-stuff {
@@ -48,7 +52,7 @@ a:hover {
   margin: 100px auto 100px auto;
 }
 
-.Welcome_message {
+.Ephime {
   padding-top: 5rem;
   font-size: 5.625rem;
   color: #E94560;
@@ -59,4 +63,169 @@ a:hover {
   .parallax-area {
     background-attachment: scroll;
   }
+}
+
+/*overlay*/
+.contact-me {
+  background: #fff;
+  padding: 15px;
+}
+
+.darker-background {
+  background-color: #000;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  opacity: 0.7;
+  z-index: 11;
+}
+
+#contact-me {
+  background-image: url(contact-me-bg-slow.gif);
+  background-size: 100%;
+  width: 400px;
+  border: none;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: relative;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin: auto -200px;
+  z-index: 200;
+}
+
+.txt, .msg {
+  background-color: rgba(255, 255, 255, 75%);
+  display: block;
+  border: 2px solid #E94560;
+  border-radius: 10px;
+  margin: auto;
+  margin-bottom: 15px
+}
+
+.txt {
+  width: 100%;
+}
+
+.contact-opener {
+  background: none;
+  text-decoration: none;
+  border: none;
+  color: #A9A9A9;
+}
+
+.contact-opener:hover {
+  color: #A9A9;
+}
+
+#contact-me, .darker-background {
+  display: none;
+}
+
+.mailing-list-txt, u {
+  color: #E94560;
+}
+
+#message-me {
+  display: inline-block;
+  background-color: #E94560;
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  border-radius: 4px;
+  text-align: center;
+  bottom: 30px;
+  right: 30px;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 100;
+  transition: background-color .3s, opacity .5s, visibility .5s;
+}
+
+#message-me:after {
+  content: "\1F582";
+  font-family: FontAwesom;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 2em;
+  line-height: 50px;
+  color: #fff;
+}
+
+#message-me:hover {
+  cursor: pointer;
+  background-color: #333;
+}
+
+#message-me:active {
+  background-color: #555;
+}
+
+#message-me.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+.program-lang-list {
+  position: relative;
+  background-image: url(contact-me-bg-slow.gif);
+  z-index: 10;
+  padding: 20px;
+  line-height: 30px;
+}
+
+/* This is for the dark mode switch */
+
+.light-dark-switch {
+  position: relative;
+  width: 200px;
+  left: 55%;
+}
+
+label {
+  position: absolute;
+  width: 25%;
+  height: 25px;
+  background-color: var(--dark);
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.dark-light {
+  position: absolute;
+  display: none;
+}
+
+.slider {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 50px;
+  transition: 0.3s;
+  left: 0;
+}
+
+.dark-light:checked ~ .slider {
+  background-color: var(--light);
+}
+
+.slider::before {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: 8px;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  box-shadow: inset 5px -2px 0px 0px var(--light);
+  background-color: var(--dark);
+  transition: 0.2s;
+}
+
+.dark-light:checked ~ .slider::before {
+  transform: translateX(20px);
+  background-color: var(--dark);
+  box-shadow: none;
 }
