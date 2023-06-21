@@ -229,3 +229,12 @@ label {
   background-color: var(--dark);
   box-shadow: none;
 }
+
+select{
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none; 
+  border: none;
+  overflow:hidden;
+  background: none;
+}

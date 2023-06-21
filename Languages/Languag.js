@@ -9,6 +9,9 @@ const language = {
         list: 'Hierso is \'n lys van my programtale:',
         lang: 'Tale',
         explain: 'Elke taal wat op die webblad gebruik word is wat ek kan lees, praat en skryf.',
+        contact: 'Kontak my',
+        detail: 'My besonderhede',
+        email: 'E-pos'
     },
 
     du : {
@@ -21,6 +24,9 @@ const language = {
         list: 'Hier is een lijst van mijn programmeertalen:',
         lang: 'Talen',
         explain: 'Elke taal die je voor deze pagina kunt kiezen, kan ik lezen, spreken en schrijven.',
+        contact: 'Neem contact op',
+        detail: 'Mijn contactgegevens',
+        email: 'E-mail'
     },
 
     en : {
@@ -33,6 +39,9 @@ const language = {
         list: 'Here\'s a list of my languages:',
         lang: 'Languages',
         explain: 'Every language you can choose for this page is what I can read; speak and write',
+        contact: 'Contact me',
+        detail: 'My contact details',
+        email: 'Email'
 
     },
 
@@ -46,6 +55,9 @@ const language = {
         list: 'Aquí tienes una lista de mis lenguajes de programación:',
         lang: 'Lenguajes',
         explain: 'Cada idioma que puedes elegir para esta página es aquel que puedo leer, hablar y escribir.',
+        contact: 'Contáctame',
+        detail: 'Datos de contacto',
+        email: 'Correo electrónico'
     },
 
     fr : {
@@ -58,6 +70,9 @@ const language = {
         list: 'Voici une liste de mes langages de programmation :',
         lang: 'Langages',
         explain: 'Chaque langue que vous pouvez choisir pour cette page, c\'est ce que je peux lire, parler et écrire.',
+        contact: 'Contactez-moi',
+        detail: 'Coordonnées de contact',
+        email: 'Email'
     },
 
     ge : {
@@ -70,6 +85,9 @@ const language = {
         list: 'Hier ist eine Liste meiner Programmiersprachen:',
         lang: 'Sprachen',
         explain: 'Jede Sprache, die du für diese Seite wählen kannst, kann ich lesen, sprechen und schreiben.',
+        contact: 'Kontaktiere mich',
+        detail: 'Meine Kontaktdaten',
+        email: 'E-mail'
     },
 
     gr : {
@@ -82,6 +100,9 @@ const language = {
         list: 'Αυτή είναι μια λίστα των γλωσσών προγραμματισμού μου:',
         lang: ' Γλώσσες',
         explain: 'Κάθε γλώσσα που μπορείτε να επιλέξετε για αυτήν τη σελίδα είναι αυτή που μπορώ να διαβάσω, μιλήσω και γράψω.',
+        contact: 'Επικοινώνησε μαζί μου',
+        detail: 'Τα στοιχεία επικοινωνίας μου',
+        email: 'Email'
     },
 
     ja: {
@@ -94,6 +115,9 @@ const language = {
         list: 'これがプログラミング言語のリストです：',
         lang: '言語',
         explain: 'このページで選択できるすべての言語は、私が読み、話し、書くことができる言語です。',
+        contact: 'お問い合わせ',
+        detail: '連絡先',
+        email: 'メール'
     },
 
     kr : {
@@ -106,6 +130,9 @@ const language = {
         list: '여기는 제가 다룰 수 있는 프로그래밍 언어 목록입니다:',
         lang: '언어',
         explain: '이 페이지에서 선택할 수 있는 모든 언어는 저가 읽고, 말하고, 쓸 수 있는 언어입니다.',
+        contact: '연락하기',
+        detail: '연락처',
+        email: ' 이메일'
     },
 
     la : {
@@ -118,6 +145,9 @@ const language = {
         list: 'Hic est index linguarum meum:',
         lang: 'Linguae',
         explain: 'Omnis lingua quam potes eligere pro hac pagina est, quod ego legere, dicere et scribere possum.',
+        contact: 'Me contacta',
+        detail: 'Detalium contactuum',
+        email: 'Epistula'
     },
 
     po  : {
@@ -130,6 +160,9 @@ const language = {
         list: 'Aqui está uma lista das minhas linguagens de programação:',
         lang: 'Linguagens',
         explain: 'Cada idioma que você pode escolher para esta página é aquele que eu posso ler, falar e escrever.',
+        contact: 'Entre em contato',
+        detail: 'Dados de contato',
+        email: 'Email'
     },
 
     ru : {
@@ -142,6 +175,9 @@ const language = {
         list: 'Вот список моих языков программирования:',
         lang: 'Языки',
         explain: 'Каждый язык, который вы можете выбрать для этой страницы, я могу читать, говорить и писать.',
+        contact: 'Свяжитесь со мной',
+        detail: 'Мои контактные данные',
+        email: 'Электронная почта'
     },
 
     zh : {
@@ -154,6 +190,9 @@ const language = {
         list: '这是我的编程语言列表：',
         lang: '语言',
         explain: '你在这个页面可以选择的每一种语言，我都能阅读、说和写。',
+        contact: '联系我',
+        detail: '联系方式',
+        email: '电子邮件'
     },
 
     zu : {
