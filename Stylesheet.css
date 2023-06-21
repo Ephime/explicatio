@@ -237,4 +237,6 @@ select{
   border: none;
   overflow:hidden;
   background: none;
+  color: #A9A9A9;
+  font-weight: 500;
 }
