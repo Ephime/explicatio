@@ -239,4 +239,6 @@ select{
   background: none;
   color: #A9A9A9;
   font-weight: 500;
+  outline: 0;
+  box-shadow: none;
 }
